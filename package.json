@@ -1,12 +1,12 @@
 {
-  "name": "@oc-soft/rt-style-loader",
+  "name": "@oc-soft/rt-link-loader",
   "version": "1.0.0",
-  "description": "resolve stylesheet at runtime in document object.",
+  "description": "resolve stylesheet at runtime in the html document.",
   "main": "dist/index.js",
   "types": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/toshiyuki-rs/rt-style-loader-js.git"
+    "url": "https://github.com/toshiyuki-rs/rt-link-loader.git"
   },
   "scripts": {
     "test": "(npm run build-dist) && jest",
@@ -23,7 +23,7 @@
   "author": "Toshiyuki Ogawa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/toshiyuki-rs/rt-style-loader-js/issues"
+    "url": "https://github.com/toshiyuki-rs/rt-link-loader/issues"
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
