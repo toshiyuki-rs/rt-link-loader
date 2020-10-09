@@ -1,0 +1,39 @@
+{
+  "name": "@oc-soft/rt-style-loader",
+  "version": "1.0.0",
+  "description": "resolve stylesheet at runtime in document object.",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toshiyuki-rs/rt-style-loader-js.git"
+  },
+  "scripts": {
+    "test": "(npm run build-dist) && jest",
+    "build-dist": "tsc --build tsconfig-dist.json",
+    "build-example": "webpack --config exp/webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "link",
+    "injection",
+    "html"
+  ],
+  "author": "Toshiyuki Ogawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshiyuki-rs/rt-style-loader-js/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/source-map": "^0.5.7",
+    "jest": "^26.4.2",
+    "memfs": "^3.2.0",
+    "source-map": "^0.7.3",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2"
+  },
+  "dependencies": {}
+}
