@@ -1,6 +1,6 @@
 {
   "name": "@oc-soft/rt-link-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "resolve stylesheet at runtime in the html document.",
   "main": "dist/index.js",
   "types": "src/index.ts",
